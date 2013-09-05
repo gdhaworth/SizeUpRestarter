@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32B854717D8F52B00E0FB04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32B854617D8F52B00E0FB04 /* Cocoa.framework */; };
+		D32B855117D8F52B00E0FB04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D32B854F17D8F52B00E0FB04 /* InfoPlist.strings */; };
+		D32B855317D8F52B00E0FB04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D32B855217D8F52B00E0FB04 /* main.m */; };
+		D32B855717D8F52B00E0FB04 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D32B855517D8F52B00E0FB04 /* Credits.rtf */; };
+		D32B855A17D8F52B00E0FB04 /* SURAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D32B855917D8F52B00E0FB04 /* SURAppDelegate.m */; };
+		D391B38317D9011200C133FB /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = D391B38217D9011200C133FB /* Application.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D32B854317D8F52B00E0FB04 /* SizeUpRestarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SizeUpRestarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32B854617D8F52B00E0FB04 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D32B854917D8F52B00E0FB04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D32B854A17D8F52B00E0FB04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D32B854B17D8F52B00E0FB04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D32B854E17D8F52B00E0FB04 /* SizeUpRestarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SizeUpRestarter-Info.plist"; sourceTree = "<group>"; };
+		D32B855017D8F52B00E0FB04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D32B855217D8F52B00E0FB04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D32B855417D8F52B00E0FB04 /* SizeUpRestarter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SizeUpRestarter-Prefix.pch"; sourceTree = "<group>"; };
+		D32B855617D8F52B00E0FB04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D32B855817D8F52B00E0FB04 /* SURAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SURAppDelegate.h; sourceTree = "<group>"; };
+		D32B855917D8F52B00E0FB04 /* SURAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SURAppDelegate.m; sourceTree = "<group>"; };
+		D391B38217D9011200C133FB /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32B854017D8F52B00E0FB04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32B854717D8F52B00E0FB04 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32B853A17D8F52B00E0FB04 = {
+			isa = PBXGroup;
+			children = (
+				D32B854C17D8F52B00E0FB04 /* SizeUpRestarter */,
+				D32B854517D8F52B00E0FB04 /* Frameworks */,
+				D32B854417D8F52B00E0FB04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32B854417D8F52B00E0FB04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32B854317D8F52B00E0FB04 /* SizeUpRestarter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32B854517D8F52B00E0FB04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D32B854617D8F52B00E0FB04 /* Cocoa.framework */,
+				D32B854817D8F52B00E0FB04 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D32B854817D8F52B00E0FB04 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D32B854917D8F52B00E0FB04 /* AppKit.framework */,
+				D32B854A17D8F52B00E0FB04 /* CoreData.framework */,
+				D32B854B17D8F52B00E0FB04 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D32B854C17D8F52B00E0FB04 /* SizeUpRestarter */ = {
+			isa = PBXGroup;
+			children = (
+				D32B855817D8F52B00E0FB04 /* SURAppDelegate.h */,
+				D32B855917D8F52B00E0FB04 /* SURAppDelegate.m */,
+				D391B38217D9011200C133FB /* Application.xib */,
+				D32B854D17D8F52B00E0FB04 /* Supporting Files */,
+			);
+			path = SizeUpRestarter;
+			sourceTree = "<group>";
+		};
+		D32B854D17D8F52B00E0FB04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32B854E17D8F52B00E0FB04 /* SizeUpRestarter-Info.plist */,
+				D32B854F17D8F52B00E0FB04 /* InfoPlist.strings */,
+				D32B855217D8F52B00E0FB04 /* main.m */,
+				D32B855417D8F52B00E0FB04 /* SizeUpRestarter-Prefix.pch */,
+				D32B855517D8F52B00E0FB04 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32B854217D8F52B00E0FB04 /* SizeUpRestarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32B856017D8F52B00E0FB04 /* Build configuration list for PBXNativeTarget "SizeUpRestarter" */;
+			buildPhases = (
+				D32B853F17D8F52B00E0FB04 /* Sources */,
+				D32B854017D8F52B00E0FB04 /* Frameworks */,
+				D32B854117D8F52B00E0FB04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SizeUpRestarter;
+			productName = SizeUpRestarter;
+			productReference = D32B854317D8F52B00E0FB04 /* SizeUpRestarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32B853B17D8F52B00E0FB04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SUR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Graham Haworth";
+			};
+			buildConfigurationList = D32B853E17D8F52B00E0FB04 /* Build configuration list for PBXProject "SizeUpRestarter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D32B853A17D8F52B00E0FB04;
+			productRefGroup = D32B854417D8F52B00E0FB04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32B854217D8F52B00E0FB04 /* SizeUpRestarter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32B854117D8F52B00E0FB04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32B855117D8F52B00E0FB04 /* InfoPlist.strings in Resources */,
+				D32B855717D8F52B00E0FB04 /* Credits.rtf in Resources */,
+				D391B38317D9011200C133FB /* Application.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32B853F17D8F52B00E0FB04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32B855317D8F52B00E0FB04 /* main.m in Sources */,
+				D32B855A17D8F52B00E0FB04 /* SURAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D32B854F17D8F52B00E0FB04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32B855017D8F52B00E0FB04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D32B855517D8F52B00E0FB04 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32B855617D8F52B00E0FB04 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32B855E17D8F52B00E0FB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D32B855F17D8F52B00E0FB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D32B856117D8F52B00E0FB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SizeUpRestarter/SizeUpRestarter-Prefix.pch";
+				INFOPLIST_FILE = "SizeUpRestarter/SizeUpRestarter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D32B856217D8F52B00E0FB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SizeUpRestarter/SizeUpRestarter-Prefix.pch";
+				INFOPLIST_FILE = "SizeUpRestarter/SizeUpRestarter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32B853E17D8F52B00E0FB04 /* Build configuration list for PBXProject "SizeUpRestarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32B855E17D8F52B00E0FB04 /* Debug */,
+				D32B855F17D8F52B00E0FB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32B856017D8F52B00E0FB04 /* Build configuration list for PBXNativeTarget "SizeUpRestarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32B856117D8F52B00E0FB04 /* Debug */,
+				D32B856217D8F52B00E0FB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32B853B17D8F52B00E0FB04 /* Project object */;
+}
